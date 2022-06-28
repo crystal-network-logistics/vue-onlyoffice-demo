@@ -40,18 +40,18 @@
     },
     methods: {
       getFile() {
-        
+
         // getAction('/file/selectById', { id: this.id }).then(res => {
-        this.option.isEdit = false
+        this.option.isEdit = true
         this.option.lang = 'zh-CN'
         // this.option.url = 'http://video.zkblog.ltd/%E6%96%B0%E5%BB%BA%20XLS%20%E5%B7%A5%E4%BD%9C%E8%A1%A8%20(2).xls'
         this.option.url = 'http://video.zkblog.ltd/%E9%9D%A2%E8%AF%95%E9%A2%98.doc'
         this.option.title = '123'
         this.option.fileType = 'doc'
-        this.option.isPrint = false
+        this.option.isPrint = true
         this.option.user = {
           id: 12,
-          name: '张三'
+          name: '李四'
         }
         this.show = true
         // })

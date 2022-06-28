@@ -57,8 +57,8 @@
               edit: option.isEdit,//是否可以编辑: 只能查看，传false
               print: option.isPrint,
               download: false,
-              // "fillForms": true,//是否可以填写表格，如果将mode参数设置为edit，则填写表单仅对文档编辑器可用。 默认值与edit或review参数的值一致。
-              // "review": true //跟踪变化
+              fillForms: true,//是否可以填写表格，如果将mode参数设置为edit，则填写表单仅对文档编辑器可用。 默认值与edit或review参数的值一致。
+              review: true //跟踪变化
             },
             url: option.url,
           },
